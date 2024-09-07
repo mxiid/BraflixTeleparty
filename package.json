@@ -1,0 +1,23 @@
+{
+  "name": "braflixteleparty",
+  "version": "1.0.0",
+  "description": "This is a simple clone of the Teleparty browser extension for Braflix.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mxiid/braflixteleparty.git"
+  },
+  "author": "Muid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mxiid/braflixteleparty/issues"
+  },
+  "homepage": "https://github.com/mxiid/braflixteleparty#readme",
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
