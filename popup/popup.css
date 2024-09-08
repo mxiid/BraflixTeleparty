@@ -1,19 +1,79 @@
 /* popup.css */
 body {
-  font-family: Arial, sans-serif;
-  width: 200px;
-  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  width: 300px;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a;
+  color: #ffffff;
 }
 
-button {
-  width: 100%;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 10px;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
+  background-color: #232323;
+}
+
+.logo {
+  font-weight: bold;
+  color: #ff4d4d;
+}
+
+.google-signin {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 5px;
   cursor: pointer;
 }
 
-button:hover {
-  background-color: #45a049;
+main {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.party-settings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.party-settings svg {
+  fill: #ffffff;
+}
+
+#start-party {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#start-party:hover {
+  background-color: #ff3333;
+}
+
+.note {
+  font-size: 12px;
+  color: #999999;
+  margin-top: 20px;
+}
+
+#start-party:disabled {
+  background-color: #666666;
+  cursor: not-allowed;
 }
